@@ -1,0 +1,44 @@
+$date
+	Wed Sep 11 15:35:02 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module notGates_tb $end
+$var wire 1 ! b_st $end
+$var wire 1 " b_df $end
+$var wire 1 # b_bh $end
+$var reg 1 $ a $end
+$scope module out1 $end
+$var wire 1 $ a $end
+$var wire 1 " b $end
+$upscope $end
+$scope module out2 $end
+$var wire 1 $ a $end
+$var reg 1 # b $end
+$upscope $end
+$scope module out3 $end
+$var wire 1 $ a $end
+$var wire 1 ! b $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0$
+1#
+1"
+1!
+$end
+#10
+0#
+0!
+0"
+1$
+#20

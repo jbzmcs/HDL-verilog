@@ -1,0 +1,138 @@
+$date
+	Mon Sep 23 15:21:14 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module full_adder_tb $end
+$var wire 1 ! sum_st $end
+$var wire 1 " sum_df $end
+$var wire 1 # sum_bh $end
+$var wire 1 $ carry_st $end
+$var wire 1 % carry_df $end
+$var wire 1 & carry_bh $end
+$var reg 1 ' a $end
+$var reg 1 ( b $end
+$var reg 1 ) c $end
+$scope module fullAdder1 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var wire 1 ) c $end
+$var wire 1 % carry $end
+$var wire 1 " sum $end
+$upscope $end
+$scope module fullAdder2 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var wire 1 ) c $end
+$var reg 1 & carry $end
+$var reg 1 # sum $end
+$upscope $end
+$scope module fullAdder3 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var wire 1 ) c $end
+$var wire 1 * xorOut1 $end
+$var wire 1 ! sum $end
+$var wire 1 $ carry $end
+$var wire 1 + andOut2 $end
+$var wire 1 , andOut1 $end
+$scope module andA $end
+$var wire 1 ) b $end
+$var wire 1 , c $end
+$var wire 1 * a $end
+$upscope $end
+$scope module andB $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var wire 1 + c $end
+$upscope $end
+$scope module xorA $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var wire 1 * c $end
+$upscope $end
+$scope module xorB $end
+$var wire 1 * a $end
+$var wire 1 ) b $end
+$var wire 1 ! c $end
+$upscope $end
+$scope module xorC $end
+$var wire 1 , a $end
+$var wire 1 + b $end
+$var wire 1 $ c $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#5
+1"
+1#
+1!
+1)
+#10
+1*
+0)
+1(
+#15
+1%
+1$
+0"
+1&
+0#
+1,
+0!
+1)
+#20
+0%
+0$
+1"
+0,
+1!
+0&
+1#
+0)
+0(
+1'
+#25
+1%
+1$
+0"
+1&
+0#
+1,
+0!
+1)
+#30
+0,
+1+
+0*
+0)
+1(
+#35
+1"
+1#
+1!
+1)
+#40

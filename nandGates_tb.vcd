@@ -1,0 +1,66 @@
+$date
+	Wed Sep 04 19:22:16 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module nandGates_tb $end
+$var wire 1 ! c_st $end
+$var wire 1 " c_df $end
+$var wire 1 # c_bh $end
+$var reg 1 $ a $end
+$var reg 1 % b $end
+$scope module out1 $end
+$var wire 1 $ a $end
+$var wire 1 % b $end
+$var wire 1 " c $end
+$upscope $end
+$scope module out2 $end
+$var wire 1 $ a $end
+$var wire 1 % b $end
+$var reg 1 # c $end
+$upscope $end
+$scope module out3 $end
+$var wire 1 $ a $end
+$var wire 1 % b $end
+$var wire 1 ! c $end
+$var wire 1 & andOut $end
+$scope module and1 $end
+$var wire 1 $ a $end
+$var wire 1 % b $end
+$var wire 1 & c $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 & a $end
+$var wire 1 ! b $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0&
+0%
+0$
+1#
+1"
+1!
+$end
+#10
+1%
+#20
+0%
+1$
+#30
+0"
+0#
+0!
+1&
+1%
+#40
