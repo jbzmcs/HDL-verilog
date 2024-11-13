@@ -1,0 +1,93 @@
+$date
+	Wed Nov 06 17:16:58 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module problem1A_tb $end
+$var wire 1 ! F $end
+$var wire 1 " E $end
+$var reg 1 # W $end
+$var reg 1 $ X $end
+$var reg 1 % Y $end
+$var reg 1 & Z $end
+$scope module solve $end
+$var wire 1 " E $end
+$var wire 1 ! F $end
+$var wire 1 # W $end
+$var wire 1 $ X $end
+$var wire 1 % Y $end
+$var wire 1 & Z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#5
+1"
+1&
+#10
+0"
+1!
+0&
+1%
+#15
+1"
+1&
+#20
+0"
+0!
+0&
+0%
+1$
+#25
+1!
+1&
+#30
+1"
+0!
+0&
+1%
+#35
+1&
+#40
+0&
+0%
+0$
+1#
+#45
+1&
+#50
+1!
+0&
+1%
+#55
+1&
+#60
+0!
+0&
+0%
+1$
+#65
+1!
+1&
+#70
+0!
+0&
+1%
+#75
+1&
+#80

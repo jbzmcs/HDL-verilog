@@ -1,0 +1,72 @@
+$date
+	Wed Nov 06 17:56:15 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module problem1B_tb $end
+$var wire 1 ! Y $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$scope module des $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ not2 $end
+$var wire 1 % not1 $end
+$var wire 1 & and2 $end
+$var wire 1 ' and1 $end
+$var wire 1 ! Y $end
+$scope module andA $end
+$var wire 1 " a $end
+$var wire 1 ' y $end
+$var wire 1 % b $end
+$upscope $end
+$scope module andB $end
+$var wire 1 # a $end
+$var wire 1 & y $end
+$var wire 1 $ b $end
+$upscope $end
+$scope module notA $end
+$var wire 1 " a $end
+$var wire 1 % b $end
+$upscope $end
+$scope module notB $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$upscope $end
+$scope module out $end
+$var wire 1 ' a $end
+$var wire 1 & b $end
+$var wire 1 ! c $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0'
+0&
+1%
+1$
+0#
+0"
+1!
+$end
+#5
+0$
+1#
+#10
+1$
+0%
+0#
+1"
+#15
+0$
+1#
+#20
