@@ -24,6 +24,7 @@ module mux8x1_tb;
     s2 = 1; s1 = 0; s0 = 1; #10; // Select I5
     s2 = 1; s1 = 1; s0 = 0; #10; // Select I6
     s2 = 1; s1 = 1; s0 = 1; #10; // Select I7
+    $finish;
     end
 
 

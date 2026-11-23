@@ -62,7 +62,8 @@ module mux8x1_st(
 
     //for D7 AND gate (S2, S1, S0)
     andGate and15(S2, S1, E15);
-    andGate and16(S0, I7, D7); // D7 output
+    andGate and16(S0, I7, E16);
+    andGate and_D7(E15, E16, D7); // D7 output
 
     // OR gate to combine all AND outputs
     wire OR1, OR2, OR3, OR4, ORFinal1, ORFinal2; // Additional intermediate wires
