@@ -1,6 +1,6 @@
-`include "orGateLab1_df.v"
-`include "orGateLab1_bh.v"
-`include "orGateLab1_st.v"
+`include "orGate_df.v"
+`include "orGate_bh.v"
+`include "orGate_st.v"
 
 module orGates_tb;
     //reg p,q;
@@ -24,15 +24,15 @@ initial begin
     $finish;
 end
 
-orGateLab1_df out1(
+orGate_df out1(
     .a(a),
     .b(b),
     .c(c_df));
-orGateLab1_bh out2(
+orGate_bh out2(
     .a(a),
     .b(b),
     .c(c_bh));
-orGateLab1_st out3(
+orGate_st out3(
     .a(a),
     .b(b),
     .c(c_st));

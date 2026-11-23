@@ -1,15 +1,15 @@
-`include "full_adder_subtractor.v"
+`include "adder_subtractor_4bit.v"
 
-module full_adder_subtractor_tb;
+module adder_subtractor_4bit_tb;
     reg [0:3] a, b;          // Input registers for the testbench
     reg cIn;                 // Input carry for the testbench
-    wire [0:3] s;            // Sum output from the full_adder_subtractor
-    wire [0:4] cOut;         // Carry output from the full_adder_subtractor
+    wire [0:3] s;            // Sum output from the adder_subtractor_4bit
+    wire [0:4] cOut;         // Carry output from the adder_subtractor_4bit
 
     initial begin
         // Initialize waveform file generation
-        $dumpfile("full_adder_subtractor.vcd");
-        $dumpvars(0, full_adder_subtractor_tb);
+        $dumpfile("adder_subtractor_4bit.vcd");
+        $dumpvars(0, adder_subtractor_4bit_tb);
         $monitor("a=%b, b=%b, cIn=%b |cOut=%b, s=%b", a, b, cIn, s, cOut);
 
         // Test various combinations of inputs with expected results
@@ -24,8 +24,8 @@ module full_adder_subtractor_tb;
         #5 $finish;
     end
 
-    // Instantiate the full_adder_subtractor module
-    full_adder_subtractor fa_sub(
+    // Instantiate the adder_subtractor_4bit module
+    adder_subtractor_4bit fa_sub(
         .cOut(cOut),
         .s(s),
         .a(a),

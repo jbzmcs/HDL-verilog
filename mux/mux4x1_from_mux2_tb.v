@@ -1,12 +1,12 @@
-`include "mux4x1_2.v"
+`include "mux4x1_from_mux2.v"
 
-module mux4x1_2_tb;
+module mux4x1_from_mux2_tb;
     reg i0, i1, i2, i3, S0, S1;  // Inputs
     wire Y;       // Outputs from different implementations
 
     initial begin
-        $dumpfile("mux4x1_2.vcd");
-        $dumpvars(0,mux4x1_2_tb);
+        $dumpfile("mux4x1_from_mux2.vcd");
+        $dumpvars(0,mux4x1_from_mux2_tb);
         $monitor("S1=%b | S0=%b | i0=%b | i1=%b | i2=%b | i3=%b | Y=%b", 
             S1, S0, i0, i1, i2, i3, Y);
         
@@ -19,7 +19,7 @@ module mux4x1_2_tb;
     end
 
     // Instantiate the dataflow MUX
-    mux4x1_2 mux(
+    mux4x1_from_mux2 mux(
         .i0(i0),
         .i1(i1),
         .i2(i2),

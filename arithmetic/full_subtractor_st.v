@@ -1,7 +1,7 @@
 `include "xorGate_df.v"
 `include "notGate_df.v"
 `include "andGate.v"
-`include "orGateLab1_df.v"
+`include "orGate_df.v"
 
 module full_subtractor_st(output diff,borr, input a,b,c);
     wire xorOut1, xorOut2; 
@@ -21,5 +21,5 @@ module full_subtractor_st(output diff,borr, input a,b,c);
     andGate and2(notOut2,c,andOut2);
 
     //instantite or gate
-    orGateLab1_df or1(andOut2,andOut1,borr);
+    orGate_df or1(andOut2,andOut1,borr);
 endmodule

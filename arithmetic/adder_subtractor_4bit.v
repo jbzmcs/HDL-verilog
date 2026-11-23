@@ -1,7 +1,7 @@
 `include "xorGate_df.v"
 `include "full_adder_df.v"
 
-module full_adder_subtractor(
+module adder_subtractor_4bit(
     output [4:0] cOut,     // carry output
     output [3:0] s,        // Sum output
     input [3:0] a, b,      // 4-bit inputs

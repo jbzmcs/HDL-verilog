@@ -1,4 +1,4 @@
-module halfAdder_bh(sum,carry,a,b);
+module half_adder_bh(sum,carry,a,b);
     output reg sum,carry;
     input a,b;
 

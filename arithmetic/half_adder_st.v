@@ -1,6 +1,6 @@
 `include "xorGate_df.v"
 `include "andGate.v"
-module halfAdder_st(sum, carry, a,b);
+module half_adder_st(sum, carry, a,b);
     output sum, carry;
     input a,b;
 

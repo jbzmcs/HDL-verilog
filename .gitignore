@@ -1,0 +1,13 @@
+# Simulation output
+build/
+*.vvp
+*.vcd
+a.out
+
+# Editor backups
+*.bak
+*~
+
+# Tool binaries never belong in the repo
+*.exe
+*.dll
